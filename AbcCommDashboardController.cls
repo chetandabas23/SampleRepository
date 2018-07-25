@@ -20,11 +20,11 @@ public class AbcCommDashboardController
         pagereference pr3=new pagereference('/apex/SolutionToCommonProblem');
         return pr3;
     }
-  /* public pagereference RNADetails()
+  public pagereference RNADetails()
     {
         pagereference pr4=new pagereference('/apex/RNADetails');
         return pr4;
-    }*/
+    }
     public pagereference MyInformation()
     {
         pagereference p5=new pagereference('/apex/MyInformation');
